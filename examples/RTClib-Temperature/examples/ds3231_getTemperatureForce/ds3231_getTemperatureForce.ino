@@ -1,10 +1,11 @@
-//#path "D:\Users\mike\Documents\Arduino\libraries\temp3231\examples\ds3231_getTemperatureBasic\temp3231.h"
+
 #include <RTClib-Temperature.h>
 
 RTC_DS3231 rtc;
 int tempC;
 int tempF;
- 
+bool force=true;
+
 void setup() {
   Serial.begin(9600);
   delay(1);  
@@ -20,7 +21,8 @@ void setup() {
 }
  
 void loop() {
-  tempC = rtc.getTemperature(true);
+  tempC = rtc.getTemperature(force);
   tempF = (tempC * 1.8) + 32.0; // Convert C to F
-
+  Serial.println(tempF,1);
+  delay(10000);
 }
