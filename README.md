@@ -1,4 +1,4 @@
-This is a fork of adafruit/RTClib, real time clock library, for Arduino, is to add the getTemperature() function.
+This is a fork of adafruit/RTClib, real time clock library, for Arduino, is to add the getTemperature() function from Andrew Wickert awickert@umn.edu, Eric Ayars, Jean-Claude Wippler, Northern Widget LLC info@northernwidget.com.
 
 For details on using this library with an RTC module like the DS1307, PCF8523, or DS3231, see the guide at: https://learn.adafruit.com/ds1307-real-time-clock-breakout-board-kit/overview
 
