@@ -1,4 +1,4 @@
-// Code by JeeLabs http://news.jeelabs.org/code/
+// getTemperature() function added by Mike Lanham m_lanham@hotmail.com to code by JeeLabs http://news.jeelabs.org/code/
 // Released to the public domain! Enjoy!
 
 #include <Wire.h>
