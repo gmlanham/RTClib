@@ -20,7 +20,7 @@ void setup() {
 }
  
 void loop() {
-  tempC = rtc.getTemperature();
+  tempC = rtc.getTemperature(true);
   tempF = (tempC * 1.8) + 32.0; // Convert C to F
 
 }
